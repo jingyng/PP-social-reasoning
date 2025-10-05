@@ -6,7 +6,7 @@ This is the repository for the paper "Persona Prompts as a Lens on LLM Social Re
 ```
 .
 ├── personas_samples_generation/    # Persona generation scripts
-├── datasets/                       # Processed datasets (SST-2, CoS-E, HateXplain)
+├── datasets/                       # Processed datasets (HateXplain, SST-2, CoS-E)
 ├── generate_persona_explanations/  # Model inference scripts
 ├── analysis/                       # Analysis code for each dataset
 └── results/                        # Experimental results
@@ -16,9 +16,9 @@ This is the repository for the paper "Persona Prompts as a Lens on LLM Social Re
 
 The repository includes three datasets:
 
+- **HatEXplain**: Hate speech detection
 - **SST (Stanford Sentiment Treebank)**: Sentiment classification
 - **CoS-E**: Commonsense reasoning task
-- **HatEXplain**: Hate speech detection
 
 SST-2 and CoS-E datasets are re-annotated subsets from BRWRR ("Being Right for Whose Right Reasons" by Jakobsen et al.). Dataset files are organized by demographic groups (e.g., `BY_processed.json`, `WY_processed.json`, `LO_processed.json`).
 
@@ -62,22 +62,6 @@ Replace `{model}` with `gptoss`, `mistral`, or `qwen`.
 
 Run analysis scripts for each dataset under `analysis/`:
 
-**SST Analysis (`analysis/sst_analysis/code/`):**
-- `baseline_accuracy_per_run.py`: Baseline task performance (accuracy, Macro-F1)
-- `persona_accuracy_per_run.py`: Persona task performance (accuracy, Macro-F1)
-- `compute_persona_label_iaa_per_run.py`: Inter-persona agreement on labels
-- `compute_persona_rationale_iaa_per_run.py`: Inter-persona agreement on rationales
-- `compute_rationale_token_iou_f1.py`: Token-F1 and IoU-F1 scores
-- `plot_sst_binary_f1_and_token_f1_transposed.py`: Generate plots
-
-**CoSE Analysis (`analysis/cose_analysis/code/`):**
-- `baseline_accuracy_per_run.py`: Baseline task performance (accuracy, Macro-F1)
-- `persona_accuracy_per_run.py`: Persona task performance (accuracy, Macro-F1)
-- `compute_persona_label_iaa_per_run.py`: Inter-persona agreement on labels
-- `compute_persona_rationale_iaa_per_run.py`: Inter-persona agreement on rationales
-- `compute_rationale_token_iou_f1.py`: Token-F1 and IoU-F1 scores
-- `plot_cose_accuracy_and_f1_transposed.py`: Generate plots
-
 **HatEXplain Analysis (`analysis/hatexplain_analysis/code/`):**
 - `persona_accuracy.py`: All personas and baseline task performance (accuracy, Macro-F1, MAE, over-flagging rate)
 - `persona_accuracy_by_subgroup.py`: Subgroup-specific task performance (supgroups are divided by annotated targets)
@@ -89,6 +73,22 @@ Run analysis scripts for each dataset under `analysis/`:
 - `plot_f1_macro_results.py`: Macro-F1 visualizations
 - `plot_flagging_rates_heatmaps.py`: Flagging rate heatmaps
 - `plot_rationale_baseline_vs_personas_filtered.py`: Token-F1 visualizations
+
+**SST-2 Analysis (`analysis/sst_analysis/code/`):**
+- `baseline_accuracy_per_run.py`: Baseline task performance (accuracy, Macro-F1)
+- `persona_accuracy_per_run.py`: Persona task performance (accuracy, Macro-F1)
+- `compute_persona_label_iaa_per_run.py`: Inter-persona agreement on labels
+- `compute_persona_rationale_iaa_per_run.py`: Inter-persona agreement on rationales
+- `compute_rationale_token_iou_f1.py`: Token-F1 and IoU-F1 scores
+- `plot_sst_binary_f1_and_token_f1_transposed.py`: Generate plots
+
+**CoS-E Analysis (`analysis/cose_analysis/code/`):**
+- `baseline_accuracy_per_run.py`: Baseline task performance (accuracy, Macro-F1)
+- `persona_accuracy_per_run.py`: Persona task performance (accuracy, Macro-F1)
+- `compute_persona_label_iaa_per_run.py`: Inter-persona agreement on labels
+- `compute_persona_rationale_iaa_per_run.py`: Inter-persona agreement on rationales
+- `compute_rationale_token_iou_f1.py`: Token-F1 and IoU-F1 scores
+- `plot_cose_accuracy_and_f1_transposed.py`: Generate plots
 
 ## Results
 

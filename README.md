@@ -63,7 +63,7 @@ Replace `{model}` with `gptoss`, `mistral`, or `qwen`.
 Run analysis scripts for each dataset under `analysis/`:
 
 **HatEXplain Analysis (`analysis/hatexplain_analysis/code/`):**
-- `persona_accuracy.py`: All personas and baseline task performance (accuracy, Macro-F1, MAE, over-flagging rate)
+- `persona_accuracy.py`: All personas and baseline task performance (accuracy, Macro-F1, ME, over-flagging rate)
 - `persona_accuracy_by_subgroup.py`: Subgroup-specific task performance (supgroups are divided by annotated targets)
 - `compute_persona_agreement.py`: Inter-persona agreement on labels
 - `compute_persona_rationale_inter_agreement.py`: Inter-persona agreement on rationales

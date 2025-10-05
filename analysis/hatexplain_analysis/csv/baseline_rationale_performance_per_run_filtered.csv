@@ -1,0 +1,10 @@
+model,run,group,persona,token_f1,iou_f1,n_eval,missing,gt_total
+gpt_oss_120b,results_gpt_oss_120b_hatexplain_r1,baseline,baseline,0.7166038674260904,0.7286432160804021,199,0,199
+gpt_oss_120b,results_gpt_oss_120b_hatexplain_r2,baseline,baseline,0.6737835137223724,0.6683417085427136,199,0,199
+gpt_oss_120b,results_gpt_oss_120b_hatexplain_r3,baseline,baseline,0.6970954812223855,0.6683417085427136,199,0,199
+mistral_medium,results_mistral_medium_hatexplain_r1,baseline,baseline,0.6607915765973841,0.6231155778894473,199,0,199
+mistral_medium,results_mistral_medium_hatexplain_r2,baseline,baseline,0.6590401059956973,0.6231155778894473,199,0,199
+mistral_medium,results_mistral_medium_hatexplain_r3,baseline,baseline,0.6641182148708152,0.6130653266331658,199,0,199
+qwen3_32b,results_qwen3_32b_hatexplain_r1,baseline,baseline,0.681868625397466,0.6432160804020101,199,0,199
+qwen3_32b,results_qwen3_32b_hatexplain_r2,baseline,baseline,0.6704946375262283,0.628140703517588,199,0,199
+qwen3_32b,results_qwen3_32b_hatexplain_r3,baseline,baseline,0.6877638212165709,0.6577540106951871,187,12,199

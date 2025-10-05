@@ -1,0 +1,21 @@
+{"age": 15, "id": "15"}
+{"age": 35, "id": "35"}
+{"age": 65, "id": "65"}
+{"education": "no formal education", "id": "no_formal_education"}
+{"education": "high school education", "id": "high_school_education"}
+{"education": "higher education", "id": "higher_education"}
+{"gender": "male", "id": "male"}
+{"gender": "female", "id": "female"}
+{"loneliness": "not lonely", "id": "not_lonely"}
+{"loneliness": "somewhat lonely", "id": "somewhat_lonely"}
+{"political_view": "left-wing", "id": "left-wing"}
+{"political_view": "right-wing", "id": "right-wing"}
+{"political_view": "centrist", "id": "centrist"}
+{"race": "white", "id": "white"}
+{"race": "black", "id": "black"}
+{"race": "asian", "id": "asian"}
+{"religion": "Christian", "id": "christian"}
+{"religion": "Muslim", "id": "muslim"}
+{"religion": "Jewish", "id": "jewish"}
+{"religion": "Atheist", "id": "atheist"}
+{"religion": "Hindu", "id": "hindu"}

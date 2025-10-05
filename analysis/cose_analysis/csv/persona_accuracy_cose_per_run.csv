@@ -1,0 +1,649 @@
+model,run,group,persona_text,accuracy,correct,total,missing,matches_group
+gpt_oss_120b,r1,BO,A 25-year-old African American Male,0.764,382,500,0,False
+gpt_oss_120b,r1,BO,A 25-year-old Hispanic Male,0.756,378,500,0,False
+gpt_oss_120b,r1,BO,A 25-year-old Caucasian Male,0.768,384,500,0,False
+gpt_oss_120b,r1,BO,A 25-year-old African American Female,0.756,378,500,0,False
+gpt_oss_120b,r1,BO,A 25-year-old Hispanic Female,0.776,388,500,0,False
+gpt_oss_120b,r1,BO,A 25-year-old Caucasian Female,0.756,378,500,0,False
+gpt_oss_120b,r1,BO,A 45-year-old African American Male,0.764,382,500,0,True
+gpt_oss_120b,r1,BO,A 45-year-old Hispanic Male,0.762,381,500,0,False
+gpt_oss_120b,r1,BO,A 45-year-old Caucasian Male,0.756,378,500,0,False
+gpt_oss_120b,r1,BO,A 45-year-old African American Female,0.742,371,500,0,True
+gpt_oss_120b,r1,BO,A 45-year-old Hispanic Female,0.746,373,500,0,False
+gpt_oss_120b,r1,BO,A 45-year-old Caucasian Female,0.764,382,500,0,False
+gpt_oss_120b,r1,BY,A 25-year-old African American Male,0.68,340,500,0,True
+gpt_oss_120b,r1,BY,A 25-year-old Hispanic Male,0.67,335,500,0,False
+gpt_oss_120b,r1,BY,A 25-year-old Caucasian Male,0.66,330,500,0,False
+gpt_oss_120b,r1,BY,A 25-year-old African American Female,0.69,345,500,0,True
+gpt_oss_120b,r1,BY,A 25-year-old Hispanic Female,0.672,336,500,0,False
+gpt_oss_120b,r1,BY,A 25-year-old Caucasian Female,0.678,339,500,0,False
+gpt_oss_120b,r1,BY,A 45-year-old African American Male,0.682,341,500,0,False
+gpt_oss_120b,r1,BY,A 45-year-old Hispanic Male,0.682,341,500,0,False
+gpt_oss_120b,r1,BY,A 45-year-old Caucasian Male,0.678,339,500,0,False
+gpt_oss_120b,r1,BY,A 45-year-old African American Female,0.676,338,500,0,False
+gpt_oss_120b,r1,BY,A 45-year-old Hispanic Female,0.686,343,500,0,False
+gpt_oss_120b,r1,BY,A 45-year-old Caucasian Female,0.676,338,500,0,False
+gpt_oss_120b,r1,LO,A 25-year-old African American Male,0.706,353,500,0,False
+gpt_oss_120b,r1,LO,A 25-year-old Hispanic Male,0.712,356,500,0,False
+gpt_oss_120b,r1,LO,A 25-year-old Caucasian Male,0.706,353,500,0,False
+gpt_oss_120b,r1,LO,A 25-year-old African American Female,0.706,353,500,0,False
+gpt_oss_120b,r1,LO,A 25-year-old Hispanic Female,0.708,354,500,0,False
+gpt_oss_120b,r1,LO,A 25-year-old Caucasian Female,0.71,355,500,0,False
+gpt_oss_120b,r1,LO,A 45-year-old African American Male,0.708,354,500,0,False
+gpt_oss_120b,r1,LO,A 45-year-old Hispanic Male,0.718,359,500,0,True
+gpt_oss_120b,r1,LO,A 45-year-old Caucasian Male,0.714,357,500,0,False
+gpt_oss_120b,r1,LO,A 45-year-old African American Female,0.714,357,500,0,False
+gpt_oss_120b,r1,LO,A 45-year-old Hispanic Female,0.708,354,500,0,True
+gpt_oss_120b,r1,LO,A 45-year-old Caucasian Female,0.712,356,500,0,False
+gpt_oss_120b,r1,LY,A 25-year-old African American Male,0.68,340,500,0,False
+gpt_oss_120b,r1,LY,A 25-year-old Hispanic Male,0.688,344,500,0,True
+gpt_oss_120b,r1,LY,A 25-year-old Caucasian Male,0.676,338,500,0,False
+gpt_oss_120b,r1,LY,A 25-year-old African American Female,0.678,339,500,0,False
+gpt_oss_120b,r1,LY,A 25-year-old Hispanic Female,0.664,332,500,0,True
+gpt_oss_120b,r1,LY,A 25-year-old Caucasian Female,0.666,333,500,0,False
+gpt_oss_120b,r1,LY,A 45-year-old African American Male,0.68,340,500,0,False
+gpt_oss_120b,r1,LY,A 45-year-old Hispanic Male,0.68,340,500,0,False
+gpt_oss_120b,r1,LY,A 45-year-old Caucasian Male,0.672,336,500,0,False
+gpt_oss_120b,r1,LY,A 45-year-old African American Female,0.664,332,500,0,False
+gpt_oss_120b,r1,LY,A 45-year-old Hispanic Female,0.666,333,500,0,False
+gpt_oss_120b,r1,LY,A 45-year-old Caucasian Female,0.67,335,500,0,False
+gpt_oss_120b,r1,WO,A 25-year-old African American Male,0.752,376,500,0,False
+gpt_oss_120b,r1,WO,A 25-year-old Hispanic Male,0.738,369,500,0,False
+gpt_oss_120b,r1,WO,A 25-year-old Caucasian Male,0.72,360,500,0,False
+gpt_oss_120b,r1,WO,A 25-year-old African American Female,0.732,366,500,0,False
+gpt_oss_120b,r1,WO,A 25-year-old Hispanic Female,0.744,372,500,0,False
+gpt_oss_120b,r1,WO,A 25-year-old Caucasian Female,0.736,368,500,0,False
+gpt_oss_120b,r1,WO,A 45-year-old African American Male,0.744,372,500,0,False
+gpt_oss_120b,r1,WO,A 45-year-old Hispanic Male,0.744,372,500,0,False
+gpt_oss_120b,r1,WO,A 45-year-old Caucasian Male,0.746,373,500,0,True
+gpt_oss_120b,r1,WO,A 45-year-old African American Female,0.74,370,500,0,False
+gpt_oss_120b,r1,WO,A 45-year-old Hispanic Female,0.736,368,500,0,False
+gpt_oss_120b,r1,WO,A 45-year-old Caucasian Female,0.752,376,500,0,True
+gpt_oss_120b,r1,WY,A 25-year-old African American Male,0.67,335,500,0,False
+gpt_oss_120b,r1,WY,A 25-year-old Hispanic Male,0.674,337,500,0,False
+gpt_oss_120b,r1,WY,A 25-year-old Caucasian Male,0.67,335,500,0,True
+gpt_oss_120b,r1,WY,A 25-year-old African American Female,0.686,343,500,0,False
+gpt_oss_120b,r1,WY,A 25-year-old Hispanic Female,0.68,340,500,0,False
+gpt_oss_120b,r1,WY,A 25-year-old Caucasian Female,0.672,336,500,0,True
+gpt_oss_120b,r1,WY,A 45-year-old African American Male,0.678,339,500,0,False
+gpt_oss_120b,r1,WY,A 45-year-old Hispanic Male,0.674,337,500,0,False
+gpt_oss_120b,r1,WY,A 45-year-old Caucasian Male,0.662,331,500,0,False
+gpt_oss_120b,r1,WY,A 45-year-old African American Female,0.644,322,500,0,False
+gpt_oss_120b,r1,WY,A 45-year-old Hispanic Female,0.672,336,500,0,False
+gpt_oss_120b,r1,WY,A 45-year-old Caucasian Female,0.666,333,500,0,False
+mistral_medium,r1,BO,A 25-year-old African American Male,0.7434869739478958,371,499,1,False
+mistral_medium,r1,BO,A 25-year-old Hispanic Male,0.744,372,500,0,False
+mistral_medium,r1,BO,A 25-year-old Caucasian Male,0.748,374,500,0,False
+mistral_medium,r1,BO,A 25-year-old African American Female,0.7389558232931727,368,498,2,False
+mistral_medium,r1,BO,A 25-year-old Hispanic Female,0.746,373,500,0,False
+mistral_medium,r1,BO,A 25-year-old Caucasian Female,0.746,373,500,0,False
+mistral_medium,r1,BO,A 45-year-old African American Male,0.744,372,500,0,True
+mistral_medium,r1,BO,A 45-year-old Hispanic Male,0.75,375,500,0,False
+mistral_medium,r1,BO,A 45-year-old Caucasian Male,0.744,372,500,0,False
+mistral_medium,r1,BO,A 45-year-old African American Female,0.7409638554216867,369,498,2,True
+mistral_medium,r1,BO,A 45-year-old Hispanic Female,0.756,378,500,0,False
+mistral_medium,r1,BO,A 45-year-old Caucasian Female,0.748,374,500,0,False
+mistral_medium,r1,BY,A 25-year-old African American Male,0.6713426853707415,335,499,1,True
+mistral_medium,r1,BY,A 25-year-old Hispanic Male,0.674,337,500,0,False
+mistral_medium,r1,BY,A 25-year-old Caucasian Male,0.68,340,500,0,False
+mistral_medium,r1,BY,A 25-year-old African American Female,0.6726907630522089,335,498,2,True
+mistral_medium,r1,BY,A 25-year-old Hispanic Female,0.668,334,500,0,False
+mistral_medium,r1,BY,A 25-year-old Caucasian Female,0.676,338,500,0,False
+mistral_medium,r1,BY,A 45-year-old African American Male,0.674,337,500,0,False
+mistral_medium,r1,BY,A 45-year-old Hispanic Male,0.664,332,500,0,False
+mistral_medium,r1,BY,A 45-year-old Caucasian Male,0.662,331,500,0,False
+mistral_medium,r1,BY,A 45-year-old African American Female,0.6606425702811245,329,498,2,False
+mistral_medium,r1,BY,A 45-year-old Hispanic Female,0.666,333,500,0,False
+mistral_medium,r1,BY,A 45-year-old Caucasian Female,0.678,339,500,0,False
+mistral_medium,r1,LO,A 25-year-old African American Male,0.7034068136272545,351,499,1,False
+mistral_medium,r1,LO,A 25-year-old Hispanic Male,0.7,350,500,0,False
+mistral_medium,r1,LO,A 25-year-old Caucasian Male,0.708,354,500,0,False
+mistral_medium,r1,LO,A 25-year-old African American Female,0.7048192771084337,351,498,2,False
+mistral_medium,r1,LO,A 25-year-old Hispanic Female,0.708,354,500,0,False
+mistral_medium,r1,LO,A 25-year-old Caucasian Female,0.702,351,500,0,False
+mistral_medium,r1,LO,A 45-year-old African American Male,0.704,352,500,0,False
+mistral_medium,r1,LO,A 45-year-old Hispanic Male,0.702,351,500,0,True
+mistral_medium,r1,LO,A 45-year-old Caucasian Male,0.696,348,500,0,False
+mistral_medium,r1,LO,A 45-year-old African American Female,0.7048192771084337,351,498,2,False
+mistral_medium,r1,LO,A 45-year-old Hispanic Female,0.7,350,500,0,True
+mistral_medium,r1,LO,A 45-year-old Caucasian Female,0.71,355,500,0,False
+mistral_medium,r1,LY,A 25-year-old African American Male,0.6893787575150301,344,499,1,False
+mistral_medium,r1,LY,A 25-year-old Hispanic Male,0.684,342,500,0,True
+mistral_medium,r1,LY,A 25-year-old Caucasian Male,0.694,347,500,0,False
+mistral_medium,r1,LY,A 25-year-old African American Female,0.6887550200803213,343,498,2,False
+mistral_medium,r1,LY,A 25-year-old Hispanic Female,0.69,345,500,0,True
+mistral_medium,r1,LY,A 25-year-old Caucasian Female,0.692,346,500,0,False
+mistral_medium,r1,LY,A 45-year-old African American Male,0.694,347,500,0,False
+mistral_medium,r1,LY,A 45-year-old Hispanic Male,0.696,348,500,0,False
+mistral_medium,r1,LY,A 45-year-old Caucasian Male,0.684,342,500,0,False
+mistral_medium,r1,LY,A 45-year-old African American Female,0.6927710843373494,345,498,2,False
+mistral_medium,r1,LY,A 45-year-old Hispanic Female,0.69,345,500,0,False
+mistral_medium,r1,LY,A 45-year-old Caucasian Female,0.704,352,500,0,False
+mistral_medium,r1,WO,A 25-year-old African American Male,0.7194388777555111,359,499,1,False
+mistral_medium,r1,WO,A 25-year-old Hispanic Male,0.726,363,500,0,False
+mistral_medium,r1,WO,A 25-year-old Caucasian Male,0.736,368,500,0,False
+mistral_medium,r1,WO,A 25-year-old African American Female,0.7248995983935743,361,498,2,False
+mistral_medium,r1,WO,A 25-year-old Hispanic Female,0.728,364,500,0,False
+mistral_medium,r1,WO,A 25-year-old Caucasian Female,0.732,366,500,0,False
+mistral_medium,r1,WO,A 45-year-old African American Male,0.732,366,500,0,False
+mistral_medium,r1,WO,A 45-year-old Hispanic Male,0.724,362,500,0,False
+mistral_medium,r1,WO,A 45-year-old Caucasian Male,0.732,366,500,0,True
+mistral_medium,r1,WO,A 45-year-old African American Female,0.7188755020080321,358,498,2,False
+mistral_medium,r1,WO,A 45-year-old Hispanic Female,0.73,365,500,0,False
+mistral_medium,r1,WO,A 45-year-old Caucasian Female,0.738,369,500,0,True
+mistral_medium,r1,WY,A 25-year-old African American Male,0.6613226452905812,330,499,1,False
+mistral_medium,r1,WY,A 25-year-old Hispanic Male,0.676,338,500,0,False
+mistral_medium,r1,WY,A 25-year-old Caucasian Male,0.678,339,500,0,True
+mistral_medium,r1,WY,A 25-year-old African American Female,0.6706827309236948,334,498,2,False
+mistral_medium,r1,WY,A 25-year-old Hispanic Female,0.668,334,500,0,False
+mistral_medium,r1,WY,A 25-year-old Caucasian Female,0.674,337,500,0,True
+mistral_medium,r1,WY,A 45-year-old African American Male,0.678,339,500,0,False
+mistral_medium,r1,WY,A 45-year-old Hispanic Male,0.676,338,500,0,False
+mistral_medium,r1,WY,A 45-year-old Caucasian Male,0.672,336,500,0,False
+mistral_medium,r1,WY,A 45-year-old African American Female,0.6666666666666666,332,498,2,False
+mistral_medium,r1,WY,A 45-year-old Hispanic Female,0.67,335,500,0,False
+mistral_medium,r1,WY,A 45-year-old Caucasian Female,0.68,340,500,0,False
+qwen3_32b,r1,BO,A 25-year-old African American Male,0.738,369,500,0,False
+qwen3_32b,r1,BO,A 25-year-old Hispanic Male,0.746,373,500,0,False
+qwen3_32b,r1,BO,A 25-year-old Caucasian Male,0.748,374,500,0,False
+qwen3_32b,r1,BO,A 25-year-old African American Female,0.758,379,500,0,False
+qwen3_32b,r1,BO,A 25-year-old Hispanic Female,0.744,372,500,0,False
+qwen3_32b,r1,BO,A 25-year-old Caucasian Female,0.75,375,500,0,False
+qwen3_32b,r1,BO,A 45-year-old African American Male,0.74,370,500,0,True
+qwen3_32b,r1,BO,A 45-year-old Hispanic Male,0.752,376,500,0,False
+qwen3_32b,r1,BO,A 45-year-old Caucasian Male,0.736,368,500,0,False
+qwen3_32b,r1,BO,A 45-year-old African American Female,0.744,372,500,0,True
+qwen3_32b,r1,BO,A 45-year-old Hispanic Female,0.734,367,500,0,False
+qwen3_32b,r1,BO,A 45-year-old Caucasian Female,0.74,370,500,0,False
+qwen3_32b,r1,BY,A 25-year-old African American Male,0.66,330,500,0,True
+qwen3_32b,r1,BY,A 25-year-old Hispanic Male,0.648,324,500,0,False
+qwen3_32b,r1,BY,A 25-year-old Caucasian Male,0.638,319,500,0,False
+qwen3_32b,r1,BY,A 25-year-old African American Female,0.654,327,500,0,True
+qwen3_32b,r1,BY,A 25-year-old Hispanic Female,0.662,331,500,0,False
+qwen3_32b,r1,BY,A 25-year-old Caucasian Female,0.64,320,500,0,False
+qwen3_32b,r1,BY,A 45-year-old African American Male,0.65,325,500,0,False
+qwen3_32b,r1,BY,A 45-year-old Hispanic Male,0.662,331,500,0,False
+qwen3_32b,r1,BY,A 45-year-old Caucasian Male,0.644,322,500,0,False
+qwen3_32b,r1,BY,A 45-year-old African American Female,0.638,319,500,0,False
+qwen3_32b,r1,BY,A 45-year-old Hispanic Female,0.66,330,500,0,False
+qwen3_32b,r1,BY,A 45-year-old Caucasian Female,0.662,331,500,0,False
+qwen3_32b,r1,LO,A 25-year-old African American Male,0.702,351,500,0,False
+qwen3_32b,r1,LO,A 25-year-old Hispanic Male,0.7,350,500,0,False
+qwen3_32b,r1,LO,A 25-year-old Caucasian Male,0.696,348,500,0,False
+qwen3_32b,r1,LO,A 25-year-old African American Female,0.708,354,500,0,False
+qwen3_32b,r1,LO,A 25-year-old Hispanic Female,0.716,358,500,0,False
+qwen3_32b,r1,LO,A 25-year-old Caucasian Female,0.702,351,500,0,False
+qwen3_32b,r1,LO,A 45-year-old African American Male,0.722,361,500,0,False
+qwen3_32b,r1,LO,A 45-year-old Hispanic Male,0.698,349,500,0,True
+qwen3_32b,r1,LO,A 45-year-old Caucasian Male,0.69,345,500,0,False
+qwen3_32b,r1,LO,A 45-year-old African American Female,0.696,348,500,0,False
+qwen3_32b,r1,LO,A 45-year-old Hispanic Female,0.702,351,500,0,True
+qwen3_32b,r1,LO,A 45-year-old Caucasian Female,0.702,351,500,0,False
+qwen3_32b,r1,LY,A 25-year-old African American Male,0.672,336,500,0,False
+qwen3_32b,r1,LY,A 25-year-old Hispanic Male,0.666,333,500,0,True
+qwen3_32b,r1,LY,A 25-year-old Caucasian Male,0.674,337,500,0,False
+qwen3_32b,r1,LY,A 25-year-old African American Female,0.674,337,500,0,False
+qwen3_32b,r1,LY,A 25-year-old Hispanic Female,0.68,340,500,0,True
+qwen3_32b,r1,LY,A 25-year-old Caucasian Female,0.668,334,500,0,False
+qwen3_32b,r1,LY,A 45-year-old African American Male,0.674,337,500,0,False
+qwen3_32b,r1,LY,A 45-year-old Hispanic Male,0.66,330,500,0,False
+qwen3_32b,r1,LY,A 45-year-old Caucasian Male,0.67,335,500,0,False
+qwen3_32b,r1,LY,A 45-year-old African American Female,0.646,323,500,0,False
+qwen3_32b,r1,LY,A 45-year-old Hispanic Female,0.666,333,500,0,False
+qwen3_32b,r1,LY,A 45-year-old Caucasian Female,0.67,335,500,0,False
+qwen3_32b,r1,WO,A 25-year-old African American Male,0.716,358,500,0,False
+qwen3_32b,r1,WO,A 25-year-old Hispanic Male,0.726,363,500,0,False
+qwen3_32b,r1,WO,A 25-year-old Caucasian Male,0.716,358,500,0,False
+qwen3_32b,r1,WO,A 25-year-old African American Female,0.724,362,500,0,False
+qwen3_32b,r1,WO,A 25-year-old Hispanic Female,0.71,355,500,0,False
+qwen3_32b,r1,WO,A 25-year-old Caucasian Female,0.718,359,500,0,False
+qwen3_32b,r1,WO,A 45-year-old African American Male,0.718,359,500,0,False
+qwen3_32b,r1,WO,A 45-year-old Hispanic Male,0.706,353,500,0,False
+qwen3_32b,r1,WO,A 45-year-old Caucasian Male,0.714,357,500,0,True
+qwen3_32b,r1,WO,A 45-year-old African American Female,0.702,351,500,0,False
+qwen3_32b,r1,WO,A 45-year-old Hispanic Female,0.722,361,500,0,False
+qwen3_32b,r1,WO,A 45-year-old Caucasian Female,0.714,357,500,0,True
+qwen3_32b,r1,WY,A 25-year-old African American Male,0.666,333,500,0,False
+qwen3_32b,r1,WY,A 25-year-old Hispanic Male,0.662,331,500,0,False
+qwen3_32b,r1,WY,A 25-year-old Caucasian Male,0.654,327,500,0,True
+qwen3_32b,r1,WY,A 25-year-old African American Female,0.668,334,500,0,False
+qwen3_32b,r1,WY,A 25-year-old Hispanic Female,0.67,335,500,0,False
+qwen3_32b,r1,WY,A 25-year-old Caucasian Female,0.652,326,500,0,True
+qwen3_32b,r1,WY,A 45-year-old African American Male,0.656,328,500,0,False
+qwen3_32b,r1,WY,A 45-year-old Hispanic Male,0.666,333,500,0,False
+qwen3_32b,r1,WY,A 45-year-old Caucasian Male,0.648,324,500,0,False
+qwen3_32b,r1,WY,A 45-year-old African American Female,0.656,328,500,0,False
+qwen3_32b,r1,WY,A 45-year-old Hispanic Female,0.642,321,500,0,False
+qwen3_32b,r1,WY,A 45-year-old Caucasian Female,0.658,329,500,0,False
+gpt_oss_120b,r2,BO,A 25-year-old African American Male,0.764,382,500,0,False
+gpt_oss_120b,r2,BO,A 25-year-old Hispanic Male,0.752,376,500,0,False
+gpt_oss_120b,r2,BO,A 25-year-old Caucasian Male,0.752,376,500,0,False
+gpt_oss_120b,r2,BO,A 25-year-old African American Female,0.756,378,500,0,False
+gpt_oss_120b,r2,BO,A 25-year-old Hispanic Female,0.758,379,500,0,False
+gpt_oss_120b,r2,BO,A 25-year-old Caucasian Female,0.75,375,500,0,False
+gpt_oss_120b,r2,BO,A 45-year-old African American Male,0.752,376,500,0,True
+gpt_oss_120b,r2,BO,A 45-year-old Hispanic Male,0.762,381,500,0,False
+gpt_oss_120b,r2,BO,A 45-year-old Caucasian Male,0.756,378,500,0,False
+gpt_oss_120b,r2,BO,A 45-year-old African American Female,0.76,380,500,0,True
+gpt_oss_120b,r2,BO,A 45-year-old Hispanic Female,0.74,370,500,0,False
+gpt_oss_120b,r2,BO,A 45-year-old Caucasian Female,0.758,379,500,0,False
+gpt_oss_120b,r2,BY,A 25-year-old African American Male,0.684,342,500,0,True
+gpt_oss_120b,r2,BY,A 25-year-old Hispanic Male,0.68,340,500,0,False
+gpt_oss_120b,r2,BY,A 25-year-old Caucasian Male,0.672,336,500,0,False
+gpt_oss_120b,r2,BY,A 25-year-old African American Female,0.682,341,500,0,True
+gpt_oss_120b,r2,BY,A 25-year-old Hispanic Female,0.682,341,500,0,False
+gpt_oss_120b,r2,BY,A 25-year-old Caucasian Female,0.678,339,500,0,False
+gpt_oss_120b,r2,BY,A 45-year-old African American Male,0.68,340,500,0,False
+gpt_oss_120b,r2,BY,A 45-year-old Hispanic Male,0.684,342,500,0,False
+gpt_oss_120b,r2,BY,A 45-year-old Caucasian Male,0.684,342,500,0,False
+gpt_oss_120b,r2,BY,A 45-year-old African American Female,0.696,348,500,0,False
+gpt_oss_120b,r2,BY,A 45-year-old Hispanic Female,0.68,340,500,0,False
+gpt_oss_120b,r2,BY,A 45-year-old Caucasian Female,0.688,344,500,0,False
+gpt_oss_120b,r2,LO,A 25-year-old African American Male,0.704,352,500,0,False
+gpt_oss_120b,r2,LO,A 25-year-old Hispanic Male,0.696,348,500,0,False
+gpt_oss_120b,r2,LO,A 25-year-old Caucasian Male,0.714,357,500,0,False
+gpt_oss_120b,r2,LO,A 25-year-old African American Female,0.698,349,500,0,False
+gpt_oss_120b,r2,LO,A 25-year-old Hispanic Female,0.714,357,500,0,False
+gpt_oss_120b,r2,LO,A 25-year-old Caucasian Female,0.706,353,500,0,False
+gpt_oss_120b,r2,LO,A 45-year-old African American Male,0.712,356,500,0,False
+gpt_oss_120b,r2,LO,A 45-year-old Hispanic Male,0.692,346,500,0,True
+gpt_oss_120b,r2,LO,A 45-year-old Caucasian Male,0.712,356,500,0,False
+gpt_oss_120b,r2,LO,A 45-year-old African American Female,0.71,355,500,0,False
+gpt_oss_120b,r2,LO,A 45-year-old Hispanic Female,0.706,353,500,0,True
+gpt_oss_120b,r2,LO,A 45-year-old Caucasian Female,0.706,353,500,0,False
+gpt_oss_120b,r2,LY,A 25-year-old African American Male,0.676,338,500,0,False
+gpt_oss_120b,r2,LY,A 25-year-old Hispanic Male,0.66,330,500,0,True
+gpt_oss_120b,r2,LY,A 25-year-old Caucasian Male,0.68,340,500,0,False
+gpt_oss_120b,r2,LY,A 25-year-old African American Female,0.672,336,500,0,False
+gpt_oss_120b,r2,LY,A 25-year-old Hispanic Female,0.678,339,500,0,True
+gpt_oss_120b,r2,LY,A 25-year-old Caucasian Female,0.66,330,500,0,False
+gpt_oss_120b,r2,LY,A 45-year-old African American Male,0.672,336,500,0,False
+gpt_oss_120b,r2,LY,A 45-year-old Hispanic Male,0.664,332,500,0,False
+gpt_oss_120b,r2,LY,A 45-year-old Caucasian Male,0.678,339,500,0,False
+gpt_oss_120b,r2,LY,A 45-year-old African American Female,0.668,334,500,0,False
+gpt_oss_120b,r2,LY,A 45-year-old Hispanic Female,0.672,336,500,0,False
+gpt_oss_120b,r2,LY,A 45-year-old Caucasian Female,0.666,333,500,0,False
+gpt_oss_120b,r2,WO,A 25-year-old African American Male,0.746,373,500,0,False
+gpt_oss_120b,r2,WO,A 25-year-old Hispanic Male,0.732,366,500,0,False
+gpt_oss_120b,r2,WO,A 25-year-old Caucasian Male,0.742,371,500,0,False
+gpt_oss_120b,r2,WO,A 25-year-old African American Female,0.728,364,500,0,False
+gpt_oss_120b,r2,WO,A 25-year-old Hispanic Female,0.738,369,500,0,False
+gpt_oss_120b,r2,WO,A 25-year-old Caucasian Female,0.738,369,500,0,False
+gpt_oss_120b,r2,WO,A 45-year-old African American Male,0.74,370,500,0,False
+gpt_oss_120b,r2,WO,A 45-year-old Hispanic Male,0.736,368,500,0,False
+gpt_oss_120b,r2,WO,A 45-year-old Caucasian Male,0.742,371,500,0,True
+gpt_oss_120b,r2,WO,A 45-year-old African American Female,0.738,369,500,0,False
+gpt_oss_120b,r2,WO,A 45-year-old Hispanic Female,0.732,366,500,0,False
+gpt_oss_120b,r2,WO,A 45-year-old Caucasian Female,0.742,371,500,0,True
+gpt_oss_120b,r2,WY,A 25-year-old African American Male,0.684,342,500,0,False
+gpt_oss_120b,r2,WY,A 25-year-old Hispanic Male,0.656,328,500,0,False
+gpt_oss_120b,r2,WY,A 25-year-old Caucasian Male,0.672,336,500,0,True
+gpt_oss_120b,r2,WY,A 25-year-old African American Female,0.67,335,500,0,False
+gpt_oss_120b,r2,WY,A 25-year-old Hispanic Female,0.668,334,500,0,False
+gpt_oss_120b,r2,WY,A 25-year-old Caucasian Female,0.66,330,500,0,True
+gpt_oss_120b,r2,WY,A 45-year-old African American Male,0.68,340,500,0,False
+gpt_oss_120b,r2,WY,A 45-year-old Hispanic Male,0.666,333,500,0,False
+gpt_oss_120b,r2,WY,A 45-year-old Caucasian Male,0.672,336,500,0,False
+gpt_oss_120b,r2,WY,A 45-year-old African American Female,0.676,338,500,0,False
+gpt_oss_120b,r2,WY,A 45-year-old Hispanic Female,0.656,328,500,0,False
+gpt_oss_120b,r2,WY,A 45-year-old Caucasian Female,0.664,332,500,0,False
+mistral_medium,r2,BO,A 25-year-old African American Male,0.73,365,500,0,False
+mistral_medium,r2,BO,A 25-year-old Hispanic Male,0.744,372,500,0,False
+mistral_medium,r2,BO,A 25-year-old Caucasian Male,0.746,373,500,0,False
+mistral_medium,r2,BO,A 25-year-old African American Female,0.7454909819639278,372,499,1,False
+mistral_medium,r2,BO,A 25-year-old Hispanic Female,0.754,377,500,0,False
+mistral_medium,r2,BO,A 25-year-old Caucasian Female,0.752,376,500,0,False
+mistral_medium,r2,BO,A 45-year-old African American Male,0.754,377,500,0,True
+mistral_medium,r2,BO,A 45-year-old Hispanic Male,0.7555110220440882,377,499,1,False
+mistral_medium,r2,BO,A 45-year-old Caucasian Male,0.754,377,500,0,False
+mistral_medium,r2,BO,A 45-year-old African American Female,0.7374749498997996,368,499,1,True
+mistral_medium,r2,BO,A 45-year-old Hispanic Female,0.758,379,500,0,False
+mistral_medium,r2,BO,A 45-year-old Caucasian Female,0.754,377,500,0,False
+mistral_medium,r2,BY,A 25-year-old African American Male,0.674,337,500,0,True
+mistral_medium,r2,BY,A 25-year-old Hispanic Male,0.668,334,500,0,False
+mistral_medium,r2,BY,A 25-year-old Caucasian Male,0.678,339,500,0,False
+mistral_medium,r2,BY,A 25-year-old African American Female,0.6693386773547094,334,499,1,True
+mistral_medium,r2,BY,A 25-year-old Hispanic Female,0.656,328,500,0,False
+mistral_medium,r2,BY,A 25-year-old Caucasian Female,0.68,340,500,0,False
+mistral_medium,r2,BY,A 45-year-old African American Male,0.662,331,500,0,False
+mistral_medium,r2,BY,A 45-year-old Hispanic Male,0.6813627254509018,340,499,1,False
+mistral_medium,r2,BY,A 45-year-old Caucasian Male,0.668,334,500,0,False
+mistral_medium,r2,BY,A 45-year-old African American Female,0.6733466933867736,336,499,1,False
+mistral_medium,r2,BY,A 45-year-old Hispanic Female,0.666,333,500,0,False
+mistral_medium,r2,BY,A 45-year-old Caucasian Female,0.668,334,500,0,False
+mistral_medium,r2,LO,A 25-year-old African American Male,0.694,347,500,0,False
+mistral_medium,r2,LO,A 25-year-old Hispanic Male,0.704,352,500,0,False
+mistral_medium,r2,LO,A 25-year-old Caucasian Male,0.698,349,500,0,False
+mistral_medium,r2,LO,A 25-year-old African American Female,0.7094188376753507,354,499,1,False
+mistral_medium,r2,LO,A 25-year-old Hispanic Female,0.7,350,500,0,False
+mistral_medium,r2,LO,A 25-year-old Caucasian Female,0.7,350,500,0,False
+mistral_medium,r2,LO,A 45-year-old African American Male,0.708,354,500,0,False
+mistral_medium,r2,LO,A 45-year-old Hispanic Male,0.7094188376753507,354,499,1,True
+mistral_medium,r2,LO,A 45-year-old Caucasian Male,0.71,355,500,0,False
+mistral_medium,r2,LO,A 45-year-old African American Female,0.7014028056112225,350,499,1,False
+mistral_medium,r2,LO,A 45-year-old Hispanic Female,0.708,354,500,0,True
+mistral_medium,r2,LO,A 45-year-old Caucasian Female,0.71,355,500,0,False
+mistral_medium,r2,LY,A 25-year-old African American Male,0.68,340,500,0,False
+mistral_medium,r2,LY,A 25-year-old Hispanic Male,0.682,341,500,0,True
+mistral_medium,r2,LY,A 25-year-old Caucasian Male,0.7,350,500,0,False
+mistral_medium,r2,LY,A 25-year-old African American Female,0.6813627254509018,340,499,1,False
+mistral_medium,r2,LY,A 25-year-old Hispanic Female,0.694,347,500,0,True
+mistral_medium,r2,LY,A 25-year-old Caucasian Female,0.694,347,500,0,False
+mistral_medium,r2,LY,A 45-year-old African American Male,0.684,342,500,0,False
+mistral_medium,r2,LY,A 45-year-old Hispanic Male,0.685370741482966,342,499,1,False
+mistral_medium,r2,LY,A 45-year-old Caucasian Male,0.692,346,500,0,False
+mistral_medium,r2,LY,A 45-year-old African American Female,0.6833667334669339,341,499,1,False
+mistral_medium,r2,LY,A 45-year-old Hispanic Female,0.69,345,500,0,False
+mistral_medium,r2,LY,A 45-year-old Caucasian Female,0.694,347,500,0,False
+mistral_medium,r2,WO,A 25-year-old African American Male,0.712,356,500,0,False
+mistral_medium,r2,WO,A 25-year-old Hispanic Male,0.728,364,500,0,False
+mistral_medium,r2,WO,A 25-year-old Caucasian Male,0.73,365,500,0,False
+mistral_medium,r2,WO,A 25-year-old African American Female,0.7434869739478958,371,499,1,False
+mistral_medium,r2,WO,A 25-year-old Hispanic Female,0.732,366,500,0,False
+mistral_medium,r2,WO,A 25-year-old Caucasian Female,0.73,365,500,0,False
+mistral_medium,r2,WO,A 45-year-old African American Male,0.732,366,500,0,False
+mistral_medium,r2,WO,A 45-year-old Hispanic Male,0.7354709418837675,367,499,1,False
+mistral_medium,r2,WO,A 45-year-old Caucasian Male,0.748,374,500,0,True
+mistral_medium,r2,WO,A 45-year-old African American Female,0.7294589178356713,364,499,1,False
+mistral_medium,r2,WO,A 45-year-old Hispanic Female,0.732,366,500,0,False
+mistral_medium,r2,WO,A 45-year-old Caucasian Female,0.74,370,500,0,True
+mistral_medium,r2,WY,A 25-year-old African American Male,0.672,336,500,0,False
+mistral_medium,r2,WY,A 25-year-old Hispanic Male,0.67,335,500,0,False
+mistral_medium,r2,WY,A 25-year-old Caucasian Male,0.678,339,500,0,True
+mistral_medium,r2,WY,A 25-year-old African American Female,0.6673346693386774,333,499,1,False
+mistral_medium,r2,WY,A 25-year-old Hispanic Female,0.674,337,500,0,False
+mistral_medium,r2,WY,A 25-year-old Caucasian Female,0.678,339,500,0,True
+mistral_medium,r2,WY,A 45-year-old African American Male,0.67,335,500,0,False
+mistral_medium,r2,WY,A 45-year-old Hispanic Male,0.6773547094188377,338,499,1,False
+mistral_medium,r2,WY,A 45-year-old Caucasian Male,0.68,340,500,0,False
+mistral_medium,r2,WY,A 45-year-old African American Female,0.6653306613226453,332,499,1,False
+mistral_medium,r2,WY,A 45-year-old Hispanic Female,0.68,340,500,0,False
+mistral_medium,r2,WY,A 45-year-old Caucasian Female,0.678,339,500,0,False
+qwen3_32b,r2,BO,A 25-year-old African American Male,0.736,368,500,0,False
+qwen3_32b,r2,BO,A 25-year-old Hispanic Male,0.746,373,500,0,False
+qwen3_32b,r2,BO,A 25-year-old Caucasian Male,0.744,372,500,0,False
+qwen3_32b,r2,BO,A 25-year-old African American Female,0.756,378,500,0,False
+qwen3_32b,r2,BO,A 25-year-old Hispanic Female,0.746,373,500,0,False
+qwen3_32b,r2,BO,A 25-year-old Caucasian Female,0.734,367,500,0,False
+qwen3_32b,r2,BO,A 45-year-old African American Male,0.736,368,500,0,True
+qwen3_32b,r2,BO,A 45-year-old Hispanic Male,0.75,375,500,0,False
+qwen3_32b,r2,BO,A 45-year-old Caucasian Male,0.738,369,500,0,False
+qwen3_32b,r2,BO,A 45-year-old African American Female,0.72,360,500,0,True
+qwen3_32b,r2,BO,A 45-year-old Hispanic Female,0.736,368,500,0,False
+qwen3_32b,r2,BO,A 45-year-old Caucasian Female,0.742,371,500,0,False
+qwen3_32b,r2,BY,A 25-year-old African American Male,0.656,328,500,0,True
+qwen3_32b,r2,BY,A 25-year-old Hispanic Male,0.654,327,500,0,False
+qwen3_32b,r2,BY,A 25-year-old Caucasian Male,0.648,324,500,0,False
+qwen3_32b,r2,BY,A 25-year-old African American Female,0.65,325,500,0,True
+qwen3_32b,r2,BY,A 25-year-old Hispanic Female,0.65,325,500,0,False
+qwen3_32b,r2,BY,A 25-year-old Caucasian Female,0.652,326,500,0,False
+qwen3_32b,r2,BY,A 45-year-old African American Male,0.662,331,500,0,False
+qwen3_32b,r2,BY,A 45-year-old Hispanic Male,0.66,330,500,0,False
+qwen3_32b,r2,BY,A 45-year-old Caucasian Male,0.66,330,500,0,False
+qwen3_32b,r2,BY,A 45-year-old African American Female,0.642,321,500,0,False
+qwen3_32b,r2,BY,A 45-year-old Hispanic Female,0.658,329,500,0,False
+qwen3_32b,r2,BY,A 45-year-old Caucasian Female,0.654,327,500,0,False
+qwen3_32b,r2,LO,A 25-year-old African American Male,0.7,350,500,0,False
+qwen3_32b,r2,LO,A 25-year-old Hispanic Male,0.694,347,500,0,False
+qwen3_32b,r2,LO,A 25-year-old Caucasian Male,0.696,348,500,0,False
+qwen3_32b,r2,LO,A 25-year-old African American Female,0.718,359,500,0,False
+qwen3_32b,r2,LO,A 25-year-old Hispanic Female,0.706,353,500,0,False
+qwen3_32b,r2,LO,A 25-year-old Caucasian Female,0.7,350,500,0,False
+qwen3_32b,r2,LO,A 45-year-old African American Male,0.712,356,500,0,False
+qwen3_32b,r2,LO,A 45-year-old Hispanic Male,0.71,355,500,0,True
+qwen3_32b,r2,LO,A 45-year-old Caucasian Male,0.706,353,500,0,False
+qwen3_32b,r2,LO,A 45-year-old African American Female,0.688,344,500,0,False
+qwen3_32b,r2,LO,A 45-year-old Hispanic Female,0.702,351,500,0,True
+qwen3_32b,r2,LO,A 45-year-old Caucasian Female,0.684,342,500,0,False
+qwen3_32b,r2,LY,A 25-year-old African American Male,0.66,330,500,0,False
+qwen3_32b,r2,LY,A 25-year-old Hispanic Male,0.684,342,500,0,True
+qwen3_32b,r2,LY,A 25-year-old Caucasian Male,0.674,337,500,0,False
+qwen3_32b,r2,LY,A 25-year-old African American Female,0.678,339,500,0,False
+qwen3_32b,r2,LY,A 25-year-old Hispanic Female,0.672,336,500,0,True
+qwen3_32b,r2,LY,A 25-year-old Caucasian Female,0.67,335,500,0,False
+qwen3_32b,r2,LY,A 45-year-old African American Male,0.682,341,500,0,False
+qwen3_32b,r2,LY,A 45-year-old Hispanic Male,0.684,342,500,0,False
+qwen3_32b,r2,LY,A 45-year-old Caucasian Male,0.664,332,500,0,False
+qwen3_32b,r2,LY,A 45-year-old African American Female,0.662,331,500,0,False
+qwen3_32b,r2,LY,A 45-year-old Hispanic Female,0.662,331,500,0,False
+qwen3_32b,r2,LY,A 45-year-old Caucasian Female,0.664,332,500,0,False
+qwen3_32b,r2,WO,A 25-year-old African American Male,0.716,358,500,0,False
+qwen3_32b,r2,WO,A 25-year-old Hispanic Male,0.724,362,500,0,False
+qwen3_32b,r2,WO,A 25-year-old Caucasian Male,0.71,355,500,0,False
+qwen3_32b,r2,WO,A 25-year-old African American Female,0.712,356,500,0,False
+qwen3_32b,r2,WO,A 25-year-old Hispanic Female,0.728,364,500,0,False
+qwen3_32b,r2,WO,A 25-year-old Caucasian Female,0.71,355,500,0,False
+qwen3_32b,r2,WO,A 45-year-old African American Male,0.716,358,500,0,False
+qwen3_32b,r2,WO,A 45-year-old Hispanic Male,0.73,365,500,0,False
+qwen3_32b,r2,WO,A 45-year-old Caucasian Male,0.734,367,500,0,True
+qwen3_32b,r2,WO,A 45-year-old African American Female,0.706,353,500,0,False
+qwen3_32b,r2,WO,A 45-year-old Hispanic Female,0.712,356,500,0,False
+qwen3_32b,r2,WO,A 45-year-old Caucasian Female,0.712,356,500,0,True
+qwen3_32b,r2,WY,A 25-year-old African American Male,0.666,333,500,0,False
+qwen3_32b,r2,WY,A 25-year-old Hispanic Male,0.664,332,500,0,False
+qwen3_32b,r2,WY,A 25-year-old Caucasian Male,0.68,340,500,0,True
+qwen3_32b,r2,WY,A 25-year-old African American Female,0.68,340,500,0,False
+qwen3_32b,r2,WY,A 25-year-old Hispanic Female,0.664,332,500,0,False
+qwen3_32b,r2,WY,A 25-year-old Caucasian Female,0.656,328,500,0,True
+qwen3_32b,r2,WY,A 45-year-old African American Male,0.656,328,500,0,False
+qwen3_32b,r2,WY,A 45-year-old Hispanic Male,0.654,327,500,0,False
+qwen3_32b,r2,WY,A 45-year-old Caucasian Male,0.672,336,500,0,False
+qwen3_32b,r2,WY,A 45-year-old African American Female,0.654,327,500,0,False
+qwen3_32b,r2,WY,A 45-year-old Hispanic Female,0.648,324,500,0,False
+qwen3_32b,r2,WY,A 45-year-old Caucasian Female,0.666,333,500,0,False
+gpt_oss_120b,r3,BO,A 25-year-old African American Male,0.768,384,500,0,False
+gpt_oss_120b,r3,BO,A 25-year-old Hispanic Male,0.75,375,500,0,False
+gpt_oss_120b,r3,BO,A 25-year-old Caucasian Male,0.756,378,500,0,False
+gpt_oss_120b,r3,BO,A 25-year-old African American Female,0.748,374,500,0,False
+gpt_oss_120b,r3,BO,A 25-year-old Hispanic Female,0.768,384,500,0,False
+gpt_oss_120b,r3,BO,A 25-year-old Caucasian Female,0.764,382,500,0,False
+gpt_oss_120b,r3,BO,A 45-year-old African American Male,0.744,372,500,0,True
+gpt_oss_120b,r3,BO,A 45-year-old Hispanic Male,0.754,377,500,0,False
+gpt_oss_120b,r3,BO,A 45-year-old Caucasian Male,0.744,372,500,0,False
+gpt_oss_120b,r3,BO,A 45-year-old African American Female,0.752,376,500,0,True
+gpt_oss_120b,r3,BO,A 45-year-old Hispanic Female,0.75,375,500,0,False
+gpt_oss_120b,r3,BO,A 45-year-old Caucasian Female,0.756,378,500,0,False
+gpt_oss_120b,r3,BY,A 25-year-old African American Male,0.684,342,500,0,True
+gpt_oss_120b,r3,BY,A 25-year-old Hispanic Male,0.674,337,500,0,False
+gpt_oss_120b,r3,BY,A 25-year-old Caucasian Male,0.684,342,500,0,False
+gpt_oss_120b,r3,BY,A 25-year-old African American Female,0.674,337,500,0,True
+gpt_oss_120b,r3,BY,A 25-year-old Hispanic Female,0.68,340,500,0,False
+gpt_oss_120b,r3,BY,A 25-year-old Caucasian Female,0.686,343,500,0,False
+gpt_oss_120b,r3,BY,A 45-year-old African American Male,0.676,338,500,0,False
+gpt_oss_120b,r3,BY,A 45-year-old Hispanic Male,0.69,345,500,0,False
+gpt_oss_120b,r3,BY,A 45-year-old Caucasian Male,0.678,339,500,0,False
+gpt_oss_120b,r3,BY,A 45-year-old African American Female,0.682,341,500,0,False
+gpt_oss_120b,r3,BY,A 45-year-old Hispanic Female,0.688,344,500,0,False
+gpt_oss_120b,r3,BY,A 45-year-old Caucasian Female,0.672,336,500,0,False
+gpt_oss_120b,r3,LO,A 25-year-old African American Male,0.724,362,500,0,False
+gpt_oss_120b,r3,LO,A 25-year-old Hispanic Male,0.716,358,500,0,False
+gpt_oss_120b,r3,LO,A 25-year-old Caucasian Male,0.7,350,500,0,False
+gpt_oss_120b,r3,LO,A 25-year-old African American Female,0.71,355,500,0,False
+gpt_oss_120b,r3,LO,A 25-year-old Hispanic Female,0.712,356,500,0,False
+gpt_oss_120b,r3,LO,A 25-year-old Caucasian Female,0.708,354,500,0,False
+gpt_oss_120b,r3,LO,A 45-year-old African American Male,0.692,346,500,0,False
+gpt_oss_120b,r3,LO,A 45-year-old Hispanic Male,0.72,360,500,0,True
+gpt_oss_120b,r3,LO,A 45-year-old Caucasian Male,0.706,353,500,0,False
+gpt_oss_120b,r3,LO,A 45-year-old African American Female,0.7,350,500,0,False
+gpt_oss_120b,r3,LO,A 45-year-old Hispanic Female,0.71,355,500,0,True
+gpt_oss_120b,r3,LO,A 45-year-old Caucasian Female,0.712,356,500,0,False
+gpt_oss_120b,r3,LY,A 25-year-old African American Male,0.68,340,500,0,False
+gpt_oss_120b,r3,LY,A 25-year-old Hispanic Male,0.664,332,500,0,True
+gpt_oss_120b,r3,LY,A 25-year-old Caucasian Male,0.664,332,500,0,False
+gpt_oss_120b,r3,LY,A 25-year-old African American Female,0.674,337,500,0,False
+gpt_oss_120b,r3,LY,A 25-year-old Hispanic Female,0.67,335,500,0,True
+gpt_oss_120b,r3,LY,A 25-year-old Caucasian Female,0.68,340,500,0,False
+gpt_oss_120b,r3,LY,A 45-year-old African American Male,0.662,331,500,0,False
+gpt_oss_120b,r3,LY,A 45-year-old Hispanic Male,0.682,341,500,0,False
+gpt_oss_120b,r3,LY,A 45-year-old Caucasian Male,0.68,340,500,0,False
+gpt_oss_120b,r3,LY,A 45-year-old African American Female,0.668,334,500,0,False
+gpt_oss_120b,r3,LY,A 45-year-old Hispanic Female,0.66,330,500,0,False
+gpt_oss_120b,r3,LY,A 45-year-old Caucasian Female,0.672,336,500,0,False
+gpt_oss_120b,r3,WO,A 25-year-old African American Male,0.746,373,500,0,False
+gpt_oss_120b,r3,WO,A 25-year-old Hispanic Male,0.736,368,500,0,False
+gpt_oss_120b,r3,WO,A 25-year-old Caucasian Male,0.738,369,500,0,False
+gpt_oss_120b,r3,WO,A 25-year-old African American Female,0.724,362,500,0,False
+gpt_oss_120b,r3,WO,A 25-year-old Hispanic Female,0.742,371,500,0,False
+gpt_oss_120b,r3,WO,A 25-year-old Caucasian Female,0.744,372,500,0,False
+gpt_oss_120b,r3,WO,A 45-year-old African American Male,0.73,365,500,0,False
+gpt_oss_120b,r3,WO,A 45-year-old Hispanic Male,0.742,371,500,0,False
+gpt_oss_120b,r3,WO,A 45-year-old Caucasian Male,0.736,368,500,0,True
+gpt_oss_120b,r3,WO,A 45-year-old African American Female,0.738,369,500,0,False
+gpt_oss_120b,r3,WO,A 45-year-old Hispanic Female,0.738,369,500,0,False
+gpt_oss_120b,r3,WO,A 45-year-old Caucasian Female,0.74,370,500,0,True
+gpt_oss_120b,r3,WY,A 25-year-old African American Male,0.69,345,500,0,False
+gpt_oss_120b,r3,WY,A 25-year-old Hispanic Male,0.66,330,500,0,False
+gpt_oss_120b,r3,WY,A 25-year-old Caucasian Male,0.674,337,500,0,True
+gpt_oss_120b,r3,WY,A 25-year-old African American Female,0.676,338,500,0,False
+gpt_oss_120b,r3,WY,A 25-year-old Hispanic Female,0.676,338,500,0,False
+gpt_oss_120b,r3,WY,A 25-year-old Caucasian Female,0.676,338,500,0,True
+gpt_oss_120b,r3,WY,A 45-year-old African American Male,0.666,333,500,0,False
+gpt_oss_120b,r3,WY,A 45-year-old Hispanic Male,0.67,335,500,0,False
+gpt_oss_120b,r3,WY,A 45-year-old Caucasian Male,0.67,335,500,0,False
+gpt_oss_120b,r3,WY,A 45-year-old African American Female,0.678,339,500,0,False
+gpt_oss_120b,r3,WY,A 45-year-old Hispanic Female,0.664,332,500,0,False
+gpt_oss_120b,r3,WY,A 45-year-old Caucasian Female,0.678,339,500,0,False
+mistral_medium,r3,BO,A 25-year-old African American Male,0.74,370,500,0,False
+mistral_medium,r3,BO,A 25-year-old Hispanic Male,0.7454909819639278,372,499,1,False
+mistral_medium,r3,BO,A 25-year-old Caucasian Male,0.748,374,500,0,False
+mistral_medium,r3,BO,A 25-year-old African American Female,0.744,372,500,0,False
+mistral_medium,r3,BO,A 25-year-old Hispanic Female,0.752,376,500,0,False
+mistral_medium,r3,BO,A 25-year-old Caucasian Female,0.752,376,500,0,False
+mistral_medium,r3,BO,A 45-year-old African American Male,0.746,373,500,0,True
+mistral_medium,r3,BO,A 45-year-old Hispanic Male,0.764,382,500,0,False
+mistral_medium,r3,BO,A 45-year-old Caucasian Male,0.752,376,500,0,False
+mistral_medium,r3,BO,A 45-year-old African American Female,0.7364185110663984,366,497,3,True
+mistral_medium,r3,BO,A 45-year-old Hispanic Female,0.744,372,500,0,False
+mistral_medium,r3,BO,A 45-year-old Caucasian Female,0.754,377,500,0,False
+mistral_medium,r3,BY,A 25-year-old African American Male,0.666,333,500,0,True
+mistral_medium,r3,BY,A 25-year-old Hispanic Male,0.6753507014028056,337,499,1,False
+mistral_medium,r3,BY,A 25-year-old Caucasian Male,0.674,337,500,0,False
+mistral_medium,r3,BY,A 25-year-old African American Female,0.67,335,500,0,True
+mistral_medium,r3,BY,A 25-year-old Hispanic Female,0.672,336,500,0,False
+mistral_medium,r3,BY,A 25-year-old Caucasian Female,0.672,336,500,0,False
+mistral_medium,r3,BY,A 45-year-old African American Male,0.668,334,500,0,False
+mistral_medium,r3,BY,A 45-year-old Hispanic Male,0.676,338,500,0,False
+mistral_medium,r3,BY,A 45-year-old Caucasian Male,0.668,334,500,0,False
+mistral_medium,r3,BY,A 45-year-old African American Female,0.670020120724346,333,497,3,False
+mistral_medium,r3,BY,A 45-year-old Hispanic Female,0.666,333,500,0,False
+mistral_medium,r3,BY,A 45-year-old Caucasian Female,0.672,336,500,0,False
+mistral_medium,r3,LO,A 25-year-old African American Male,0.702,351,500,0,False
+mistral_medium,r3,LO,A 25-year-old Hispanic Male,0.6953907815631263,347,499,1,False
+mistral_medium,r3,LO,A 25-year-old Caucasian Male,0.706,353,500,0,False
+mistral_medium,r3,LO,A 25-year-old African American Female,0.7,350,500,0,False
+mistral_medium,r3,LO,A 25-year-old Hispanic Female,0.7,350,500,0,False
+mistral_medium,r3,LO,A 25-year-old Caucasian Female,0.706,353,500,0,False
+mistral_medium,r3,LO,A 45-year-old African American Male,0.708,354,500,0,False
+mistral_medium,r3,LO,A 45-year-old Hispanic Male,0.71,355,500,0,True
+mistral_medium,r3,LO,A 45-year-old Caucasian Male,0.706,353,500,0,False
+mistral_medium,r3,LO,A 45-year-old African American Female,0.7082494969818913,352,497,3,False
+mistral_medium,r3,LO,A 45-year-old Hispanic Female,0.7,350,500,0,True
+mistral_medium,r3,LO,A 45-year-old Caucasian Female,0.714,357,500,0,False
+mistral_medium,r3,LY,A 25-year-old African American Male,0.69,345,500,0,False
+mistral_medium,r3,LY,A 25-year-old Hispanic Male,0.687374749498998,343,499,1,True
+mistral_medium,r3,LY,A 25-year-old Caucasian Male,0.692,346,500,0,False
+mistral_medium,r3,LY,A 25-year-old African American Female,0.678,339,500,0,False
+mistral_medium,r3,LY,A 25-year-old Hispanic Female,0.69,345,500,0,True
+mistral_medium,r3,LY,A 25-year-old Caucasian Female,0.698,349,500,0,False
+mistral_medium,r3,LY,A 45-year-old African American Male,0.68,340,500,0,False
+mistral_medium,r3,LY,A 45-year-old Hispanic Male,0.682,341,500,0,False
+mistral_medium,r3,LY,A 45-year-old Caucasian Male,0.698,349,500,0,False
+mistral_medium,r3,LY,A 45-year-old African American Female,0.6861167002012073,341,497,3,False
+mistral_medium,r3,LY,A 45-year-old Hispanic Female,0.688,344,500,0,False
+mistral_medium,r3,LY,A 45-year-old Caucasian Female,0.7,350,500,0,False
+mistral_medium,r3,WO,A 25-year-old African American Male,0.724,362,500,0,False
+mistral_medium,r3,WO,A 25-year-old Hispanic Male,0.7234468937875751,361,499,1,False
+mistral_medium,r3,WO,A 25-year-old Caucasian Male,0.742,371,500,0,False
+mistral_medium,r3,WO,A 25-year-old African American Female,0.726,363,500,0,False
+mistral_medium,r3,WO,A 25-year-old Hispanic Female,0.724,362,500,0,False
+mistral_medium,r3,WO,A 25-year-old Caucasian Female,0.73,365,500,0,False
+mistral_medium,r3,WO,A 45-year-old African American Male,0.728,364,500,0,False
+mistral_medium,r3,WO,A 45-year-old Hispanic Male,0.736,368,500,0,False
+mistral_medium,r3,WO,A 45-year-old Caucasian Male,0.748,374,500,0,True
+mistral_medium,r3,WO,A 45-year-old African American Female,0.7263581488933601,361,497,3,False
+mistral_medium,r3,WO,A 45-year-old Hispanic Female,0.734,367,500,0,False
+mistral_medium,r3,WO,A 45-year-old Caucasian Female,0.746,373,500,0,True
+mistral_medium,r3,WY,A 25-year-old African American Male,0.666,333,500,0,False
+mistral_medium,r3,WY,A 25-year-old Hispanic Male,0.6753507014028056,337,499,1,False
+mistral_medium,r3,WY,A 25-year-old Caucasian Male,0.676,338,500,0,True
+mistral_medium,r3,WY,A 25-year-old African American Female,0.662,331,500,0,False
+mistral_medium,r3,WY,A 25-year-old Hispanic Female,0.672,336,500,0,False
+mistral_medium,r3,WY,A 25-year-old Caucasian Female,0.678,339,500,0,True
+mistral_medium,r3,WY,A 45-year-old African American Male,0.672,336,500,0,False
+mistral_medium,r3,WY,A 45-year-old Hispanic Male,0.678,339,500,0,False
+mistral_medium,r3,WY,A 45-year-old Caucasian Male,0.684,342,500,0,False
+mistral_medium,r3,WY,A 45-year-old African American Female,0.670020120724346,333,497,3,False
+mistral_medium,r3,WY,A 45-year-old Hispanic Female,0.672,336,500,0,False
+mistral_medium,r3,WY,A 45-year-old Caucasian Female,0.674,337,500,0,False
+qwen3_32b,r3,BO,A 25-year-old African American Male,0.718,359,500,0,False
+qwen3_32b,r3,BO,A 25-year-old Hispanic Male,0.752,376,500,0,False
+qwen3_32b,r3,BO,A 25-year-old Caucasian Male,0.762,381,500,0,False
+qwen3_32b,r3,BO,A 25-year-old African American Female,0.75,375,500,0,False
+qwen3_32b,r3,BO,A 25-year-old Hispanic Female,0.76,380,500,0,False
+qwen3_32b,r3,BO,A 25-year-old Caucasian Female,0.75,375,500,0,False
+qwen3_32b,r3,BO,A 45-year-old African American Male,0.726,363,500,0,True
+qwen3_32b,r3,BO,A 45-year-old Hispanic Male,0.746,373,500,0,False
+qwen3_32b,r3,BO,A 45-year-old Caucasian Male,0.744,372,500,0,False
+qwen3_32b,r3,BO,A 45-year-old African American Female,0.738,369,500,0,True
+qwen3_32b,r3,BO,A 45-year-old Hispanic Female,0.752,376,500,0,False
+qwen3_32b,r3,BO,A 45-year-old Caucasian Female,0.758,379,500,0,False
+qwen3_32b,r3,BY,A 25-year-old African American Male,0.638,319,500,0,True
+qwen3_32b,r3,BY,A 25-year-old Hispanic Male,0.642,321,500,0,False
+qwen3_32b,r3,BY,A 25-year-old Caucasian Male,0.646,323,500,0,False
+qwen3_32b,r3,BY,A 25-year-old African American Female,0.664,332,500,0,True
+qwen3_32b,r3,BY,A 25-year-old Hispanic Female,0.636,318,500,0,False
+qwen3_32b,r3,BY,A 25-year-old Caucasian Female,0.654,327,500,0,False
+qwen3_32b,r3,BY,A 45-year-old African American Male,0.65,325,500,0,False
+qwen3_32b,r3,BY,A 45-year-old Hispanic Male,0.65,325,500,0,False
+qwen3_32b,r3,BY,A 45-year-old Caucasian Male,0.654,327,500,0,False
+qwen3_32b,r3,BY,A 45-year-old African American Female,0.646,323,500,0,False
+qwen3_32b,r3,BY,A 45-year-old Hispanic Female,0.658,329,500,0,False
+qwen3_32b,r3,BY,A 45-year-old Caucasian Female,0.65,325,500,0,False
+qwen3_32b,r3,LO,A 25-year-old African American Male,0.714,357,500,0,False
+qwen3_32b,r3,LO,A 25-year-old Hispanic Male,0.71,355,500,0,False
+qwen3_32b,r3,LO,A 25-year-old Caucasian Male,0.714,357,500,0,False
+qwen3_32b,r3,LO,A 25-year-old African American Female,0.704,352,500,0,False
+qwen3_32b,r3,LO,A 25-year-old Hispanic Female,0.702,351,500,0,False
+qwen3_32b,r3,LO,A 25-year-old Caucasian Female,0.694,347,500,0,False
+qwen3_32b,r3,LO,A 45-year-old African American Male,0.706,353,500,0,False
+qwen3_32b,r3,LO,A 45-year-old Hispanic Male,0.706,353,500,0,True
+qwen3_32b,r3,LO,A 45-year-old Caucasian Male,0.698,349,500,0,False
+qwen3_32b,r3,LO,A 45-year-old African American Female,0.7,350,500,0,False
+qwen3_32b,r3,LO,A 45-year-old Hispanic Female,0.712,356,500,0,True
+qwen3_32b,r3,LO,A 45-year-old Caucasian Female,0.694,347,500,0,False
+qwen3_32b,r3,LY,A 25-year-old African American Male,0.65,325,500,0,False
+qwen3_32b,r3,LY,A 25-year-old Hispanic Male,0.678,339,500,0,True
+qwen3_32b,r3,LY,A 25-year-old Caucasian Male,0.674,337,500,0,False
+qwen3_32b,r3,LY,A 25-year-old African American Female,0.666,333,500,0,False
+qwen3_32b,r3,LY,A 25-year-old Hispanic Female,0.652,326,500,0,True
+qwen3_32b,r3,LY,A 25-year-old Caucasian Female,0.688,344,500,0,False
+qwen3_32b,r3,LY,A 45-year-old African American Male,0.662,331,500,0,False
+qwen3_32b,r3,LY,A 45-year-old Hispanic Male,0.668,334,500,0,False
+qwen3_32b,r3,LY,A 45-year-old Caucasian Male,0.668,334,500,0,False
+qwen3_32b,r3,LY,A 45-year-old African American Female,0.664,332,500,0,False
+qwen3_32b,r3,LY,A 45-year-old Hispanic Female,0.678,339,500,0,False
+qwen3_32b,r3,LY,A 45-year-old Caucasian Female,0.67,335,500,0,False
+qwen3_32b,r3,WO,A 25-year-old African American Male,0.724,362,500,0,False
+qwen3_32b,r3,WO,A 25-year-old Hispanic Male,0.702,351,500,0,False
+qwen3_32b,r3,WO,A 25-year-old Caucasian Male,0.724,362,500,0,False
+qwen3_32b,r3,WO,A 25-year-old African American Female,0.722,361,500,0,False
+qwen3_32b,r3,WO,A 25-year-old Hispanic Female,0.712,356,500,0,False
+qwen3_32b,r3,WO,A 25-year-old Caucasian Female,0.718,359,500,0,False
+qwen3_32b,r3,WO,A 45-year-old African American Male,0.712,356,500,0,False
+qwen3_32b,r3,WO,A 45-year-old Hispanic Male,0.738,369,500,0,False
+qwen3_32b,r3,WO,A 45-year-old Caucasian Male,0.706,353,500,0,True
+qwen3_32b,r3,WO,A 45-year-old African American Female,0.712,356,500,0,False
+qwen3_32b,r3,WO,A 45-year-old Hispanic Female,0.728,364,500,0,False
+qwen3_32b,r3,WO,A 45-year-old Caucasian Female,0.72,360,500,0,True
+qwen3_32b,r3,WY,A 25-year-old African American Male,0.642,321,500,0,False
+qwen3_32b,r3,WY,A 25-year-old Hispanic Male,0.662,331,500,0,False
+qwen3_32b,r3,WY,A 25-year-old Caucasian Male,0.672,336,500,0,True
+qwen3_32b,r3,WY,A 25-year-old African American Female,0.662,331,500,0,False
+qwen3_32b,r3,WY,A 25-year-old Hispanic Female,0.66,330,500,0,False
+qwen3_32b,r3,WY,A 25-year-old Caucasian Female,0.67,335,500,0,True
+qwen3_32b,r3,WY,A 45-year-old African American Male,0.66,330,500,0,False
+qwen3_32b,r3,WY,A 45-year-old Hispanic Male,0.654,327,500,0,False
+qwen3_32b,r3,WY,A 45-year-old Caucasian Male,0.676,338,500,0,False
+qwen3_32b,r3,WY,A 45-year-old African American Female,0.634,317,500,0,False
+qwen3_32b,r3,WY,A 45-year-old Hispanic Female,0.662,331,500,0,False
+qwen3_32b,r3,WY,A 45-year-old Caucasian Female,0.654,327,500,0,False

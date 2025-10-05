@@ -1,0 +1,4 @@
+model,krippendorff_alpha_mean,krippendorff_alpha_std
+gpt_oss_120b,0.8463,0.0217
+mistral_medium,0.8103,0.1013
+qwen3_32b,0.591,0.0607

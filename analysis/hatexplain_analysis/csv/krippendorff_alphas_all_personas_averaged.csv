@@ -1,0 +1,7 @@
+model,include_baseline,krippendorff_alpha_mean,krippendorff_alpha_std
+gpt_oss_120b,False,0.8427,0.0033
+gpt_oss_120b,True,0.8416,0.0026
+mistral_medium,False,0.7981,0.0014
+mistral_medium,True,0.7928,0.0015
+qwen3_32b,False,0.5927,0.0048
+qwen3_32b,True,0.5982,0.004

@@ -85,6 +85,7 @@ Run analysis scripts for each dataset under `analysis/`:
 - `compute_persona_rationale_inter_agreement.py`: Inter-persona agreement on rationales
 - `extract_ground_truth_rationales.py`: Extract ground truth rationales
 - `create_subgroup_f1_table.py`: F1 scores by subgroup (divided by annotated targets)
+- `cot_reasoning_analysis.ipynb`: Analyzing models' reasoning output
 - `plot_f1_macro_results.py`: Macro-F1 visualizations
 - `plot_flagging_rates_heatmaps.py`: Flagging rate heatmaps
 - `plot_rationale_baseline_vs_personas_filtered.py`: Token-F1 visualizations

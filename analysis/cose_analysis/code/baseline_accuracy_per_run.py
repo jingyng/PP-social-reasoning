@@ -10,7 +10,7 @@ THIS_DIR = Path(__file__).resolve().parent
 REPO_ROOT = THIS_DIR.parent.parent
 
 DATASET_ROOT = REPO_ROOT / "results"
-GT_DIR = REPO_ROOT / "data" / "cose"
+GT_DIR = REPO_ROOT / "datasets" / "cose"
 
 # Model configurations for CoSE individual runs
 MODEL_CONFIGS = {

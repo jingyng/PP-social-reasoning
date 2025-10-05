@@ -11,7 +11,7 @@ THIS_DIR = Path(__file__).resolve().parent
 REPO_ROOT = THIS_DIR.parent.parent
 
 DATASET_ROOT = REPO_ROOT / "results"
-GT_DIR = REPO_ROOT / "data" / "SST"
+GT_DIR = REPO_ROOT / "datasets" / "SST"
 
 # Model configurations for SST individual runs
 MODEL_CONFIGS = {
